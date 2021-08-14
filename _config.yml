@@ -27,6 +27,14 @@ url: "https://jjeongin.github.io" # the base hostname & protocol for your site, 
 twitter_username: JeonginLee
 github_username:  jjeongin
 
+# Add default layout
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
 # Build settings
 theme: minima
 plugins:
