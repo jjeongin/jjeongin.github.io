@@ -2,7 +2,7 @@
 layout: post
 title: "Test"
 ---
-Test 'post'
+Test `post`
 
 {% highlight ruby %}
 def hello_world():
