@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Test"
+---
+Test 'post'
+
+{% highlight ruby %}
+def hello_world():
+    print("hello world")
+{% endhighlight %}
