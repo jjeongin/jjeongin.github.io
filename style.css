@@ -1,0 +1,133 @@
+/* main page */
+
+body {
+    font-family: "Apple LiSung";
+}
+
+.movie-title {
+    font-size: 50px;
+    color: #707070;
+    display: block;
+    width: 20%;
+    height: 93%;
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+     /* to visualize */
+     /* border: pink solid 2px; */
+}
+
+.t {
+    position: relative;
+    top: 0%;
+    left: 10%;
+}
+
+.h {
+    position: relative;
+    left: 20%;
+}
+
+.e {
+    position: relative;
+    left: 13%;
+}
+
+.s {
+    position: relative;
+    left: 3%;
+}
+
+.r {
+    position: relative;
+    left: 23%;
+}
+
+.i {
+    position: relative;
+    left: 15%;
+}
+
+.n {
+    position: relative;
+    left: 40%;
+}
+
+.g {
+    position: relative;
+    left: 90%;
+    bottom: 3%;
+}
+
+a {
+    color: #707070;
+}
+
+.more-info {
+    font-size: 25px;
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+/* cast page */
+.body-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cast-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    position: absolute;
+    top: 15%;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.cast {
+    text-align: center;
+    color: #707070;
+    width: 300px; /* same width as cast img */
+}
+
+.cast-name {
+    font-size: 40px;
+}
+
+.cast-info {
+    font-size: 18px;
+}
+
+img {
+    width: 300px;
+}
+
+/* about page */
+.about-movie-title {
+    display: flex;
+    justify-content: center;
+    color: #707070;
+    font-size: 20px;
+}
+
+.about-movie-detail {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #707070;
+    font-size: 18px;
+}
+
+.about-movie-detail-text {
+    width: 80%;
+}
