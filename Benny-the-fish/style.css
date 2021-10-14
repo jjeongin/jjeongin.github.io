@@ -1,0 +1,66 @@
+p {
+  font-family: Futura,Arial;
+  font-weight: 100;
+  font-size: 50px;
+  font-family: 'Butterfly Kids';
+}
+
+.last {
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.List {
+  display: block;
+  width: 60%;
+  height: 40%;
+  margin-top: 15px;
+  margin-left: 18%;
+}
+
+
+
+.Intro {
+  display: block;
+  width: 60%;
+  height: 40%;
+  margin-top: 100px;
+  margin-left: 18%;
+}
+
+body {
+  background-image: url('https://cdn.glitch.me/b821ea2a-77cd-40f3-b3e2-11469c5416e2%2FUntitled_Artwork.jpg?v=1634159318966');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+}
+
+.Containertwo {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+}
+
+.Logo {
+  width: 80vw;
+  margin-top: 6vh;
+}
+
+.Containerlogo {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonimage {
+  width: 40vw;
+}
