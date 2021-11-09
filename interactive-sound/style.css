@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 15vw;
+}
+
+#circle1 {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    background-color: red;
+    display: block;
+    position: absolute;
+    top: 30vh;
+    left: 5vw;
+    visibility: hidden;
+}
+
+#circle2 {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    background-color: white;
+    display: block;
+    position: absolute;
+    top: 50vh;
+    left: 70vw;
+    visibility: hidden;
+}
+
+#circle3 {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    background-color: yellow;
+    display: block;
+    position: absolute;
+    top: 5vh;
+    left: 50vw;
+    visibility: hidden;
+}
+
+#rect {
+    width: 20vw;
+    height: 20vw;
+    background-color: black;
+    display: block;
+    position: absolute;
+    top: 60vh;
+    left: 30vw;
+    visibility: hidden;
+}
