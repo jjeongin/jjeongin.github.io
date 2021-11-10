@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    transition: background-color 16s; /* for smooth color transition */
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p { 
+    text-align: center;
+    color: white;
+}
+
+.instruction-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#replay-button-container {
+    position: absolute;
+    bottom: 7%;
+    right: 5%;
+}
