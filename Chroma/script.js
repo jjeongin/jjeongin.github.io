@@ -149,6 +149,13 @@ $(document).ready(function(){
         }
     }
 
+    const blueInterview = document.getElementById("blue-interview");
+    const redInterview = document.getElementById("red-interview");
+    const yellowInterview = document.getElementById("yellow-interview");
+    const greenInterview = document.getElementById("green-interview");
+    const orangeInterview = document.getElementById("orange-interview");
+    const purpleInterview = document.getElementById("purple-interview");
+
     //Continue past first pause
     $("#continue-button").click(function(){
         main_video.play();
@@ -168,13 +175,6 @@ $(document).ready(function(){
         greenInterview.style.display='none';
         purpleInterview.style.display='none';
     });
-
-    const blueInterview = document.getElementById("blue-interview");
-    const redInterview = document.getElementById("red-interview");
-    const yellowInterview = document.getElementById("yellow-interview");
-    const greenInterview = document.getElementById("green-interview");
-    const orangeInterview = document.getElementById("orange-interview");
-    const purpleInterview = document.getElementById("purple-interview");
 
     //On clicks of circles, show interviews
     $("#blue-circle").click(function(){
