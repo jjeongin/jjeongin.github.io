@@ -1,0 +1,143 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    /* font-family: 'Lora', serif; */
+    height: 100vh;
+}
+
+#name-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#name {
+    font-size: 70px;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+#name-text {
+    margin: 1%; /* reset p margin */
+}
+
+#name-description {
+    position: relative;
+    top: 50px; /* space for name logo */
+    font-size: 45px;
+    /* font-size: 3vw; */
+    margin: 1%;
+}
+
+#contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 35px;
+    height: 100%;
+    width: 350px;
+}
+
+.contact {
+    width: 170px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: transparent;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    color: black;
+    line-height: 100px;
+}
+
+.contact:hover {
+    transform: skew(-15deg, -15deg);
+}
+
+a, a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a#mail {
+    text-decoration: underline;
+}
+
+a#mail:hover {
+    font-style: italic;
+}
+
+div#mail {
+    width: 50%;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: column;
+}
+
+.work {
+    display: flex;
+}
+
+.work-left {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-name {
+    font-size: 25px;
+    font-family: 'Lora', serif;
+    /* font-family: "Times New Roman", Times, serif; */
+    font-style: italic;
+}
+
+.work-description {
+    font-family: 'Lora', serif;
+    width: 50vw;
+}
+
+/* .overlay {
+    opacity: 0;
+    background-color: grey;
+    color: white;
+}
+
+.work-image:hover .overlay {
+    opacity: 1;
+} */
+
+::selection {
+    /* color: hotpink; */
+    color: #14adff;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media only screen and (max-width: 1150px) {
+    #name-description {
+        font-size: 43px;
+    }
+}
+
+/* @media only screen and (max-width: 1000px) {
+    #name-description {
+        font-size: 40px;
+    }
+} */
