@@ -9,11 +9,11 @@ $(document).ready(function(){
         $(".work-right").eq(index).show(); // only display this description
     },);
 
-    $(".name-description-text").hover(function(){
-        // text_index = $(this).index();
-        $('.name-description-text').css("font-weight", 'normal');
-        $(this).css("font-weight", 'bold');
-        // $('p').css("font-family", 'Helvetica');
-        // $('p').eq(text_index).css("font-family", 'Lora');
-    })
+    // $(".name-description-text").hover(function(){
+    //     // text_index = $(this).index();
+    //     $('.name-description-text').css("font-weight", 'normal');
+    //     $(this).css("font-weight", 'bold');
+    //     // $('p').css("font-family", 'Helvetica');
+    //     // $('p').eq(text_index).css("font-family", 'Lora');
+    // })
 });
