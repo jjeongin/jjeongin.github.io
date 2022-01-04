@@ -152,7 +152,7 @@ class Area {
 
 class Maze {
   constructor() {
-    this.bg = loadImage("/images/bg_f.png"); // load background image
+    this.bg = loadImage("images/bg_f.png"); // load background image
 
     this.PacMan_initial_pos = new Area(18, 25); // assign initial position for each character
     this.Blinky_initial_pos = new Area(5, 23);
@@ -362,7 +362,6 @@ class Game {
     this.check_available_direction_for_pacman(); // check next possible direction for pacman
     for (let i = 0; i < this.ghosts.length; i++) {
       this.check_available_direction_for_ghosts(this.ghosts[i]); // check next possible direction for ghosts
-      console.log(this.ghosts[i].name, this.ghosts[i].direction, this.ghosts[i].available_direction);
       if (!(this.ghosts[i].available_direction.includes(this.ghosts[i].direction))) {
         this.ghosts[i].change_direction();  // change ghost direction randomly
       }
@@ -527,14 +526,14 @@ let start; // true if the game started
 let game;
 
 function preload() {
-  ArcadeClassic = loadFont("/font/ArcadeClassic.TTF");
-  logo = loadImage("/images/logo.svg"); // load logo img
-  spritesheet = loadImage("/images/sprites.png"); // load image files
+  ArcadeClassic = loadFont("font/ArcadeClassic.TTF");
+  logo = loadImage("images/logo.svg"); // load logo img
+  spritesheet = loadImage("images/sprites.png"); // load image files
 
   // load sound files
   soundFormats('wav');
-  beginning_sound = loadSound("/sound/intro");
-  death_sound = loadSound("/sound/death");
+  beginning_sound = loadSound("sound/intro");
+  death_sound = loadSound("sound/death");
 }
 
 function setup() {
