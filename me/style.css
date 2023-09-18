@@ -132,7 +132,7 @@ ul.nav-bar {
 }
 
 .nav-container + ul.nav-bar {
-    display: block;
+    display: block; /* keep displaying */
 }
 
 ul.nav-bar:hover {
@@ -165,7 +165,6 @@ ul.nav-bar:hover {
     display: flex;
     align-items: center;
 
-    /* width: 100%; */
     height: 100%;
     min-height: 195px;
 
@@ -184,13 +183,12 @@ ul.nav-bar:hover {
 .my-interest-container {
     display: flex;
     flex-direction: column;
-    gap: 3px;
+    gap: 7px;
 }
 
 .my-interest {
     font-size: 16px;
     margin: 0;
-    /* text-align: right; */
 }
 
 .my-cv {
@@ -204,7 +202,7 @@ ul.nav-bar:hover {
 }
 
 .social-icon {
-    height: 20px;
+    height: 25px;
     padding-left: 7px;
 }
 
@@ -290,10 +288,6 @@ ul.nav-bar:hover {
 
     .my-cv {
         font-size: 24px;
-    }
-
-    .social-icon {
-        height: 25px;
     }
 
     .work-history {
