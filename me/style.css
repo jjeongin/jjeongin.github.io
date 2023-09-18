@@ -61,12 +61,19 @@ h1, h2, h3 {
     color: #2B2B2B;
 }
 
-a {
+a, p, li {
+    color: #2B2B2B;
     color: #2B2B2B;
 }
 
-p {
-    color: #2B2B2B;
+ul,
+ul li,
+ul ul li {
+   margin:0;
+   padding: 0;
+   text-indent: 0;
+   list-style-type: 0;
+   list-style: none;
 }
 
 ::-moz-selection { /* Code for Firefox */
@@ -90,6 +97,43 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 5px;
+}
+
+.nav-icon {
+    transition: transform .7s ease-in-out;
+}
+
+.nav-icon:hover {
+    transform: rotate(225deg);
+}
+
+ul.nav-bar li {
+    font-size: 32px;
+}
+
+ul.nav-bar li a {
+    text-decoration: none;
+}
+
+
+ul.nav-bar {
+    display: none; /* hide */
+}
+
+.nav-icon:hover + ul.nav-bar {
+    display: block; /* display */
+}
+
+ul.nav-bar:hover {
+    display: block; /* keep displaying */
 }
 
 .name-first, .name-last {
