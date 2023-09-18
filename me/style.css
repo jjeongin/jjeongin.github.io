@@ -111,11 +111,12 @@ p {
 }
 
 .my-interest {
-    font-size: 20px;
+    font-size: 16px;
     /* text-align: right; */
 }
 
 .my-cv {
+    font-size: 20px;
     text-align: right;
 }
 
@@ -149,6 +150,14 @@ p {
     /* align-items: center; */
 }
 
+.work-history-item a {
+    text-decoration: none;
+}
+
+.work-history-item a:hover {
+    color: #DCDDDD;
+}
+
 .work-organization {
     font-size: 20px;
     font-weight: 500;
@@ -165,6 +174,21 @@ p {
     margin: 0;
 }
 
+.work-link-container {
+    display: flex;
+}
+
+.work-link, .work-link-2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    /* text-decoration: underline; */
+}
+
+.work-link-2 {
+
+}
+
 .work-period {
     font-size: 14px;
     margin: 0;
@@ -174,6 +198,7 @@ p {
 
 .work-img {
     width: 100%;
+    height: auto;
 }
 
 /* Small devices (landscape phones, 576px and up) */
