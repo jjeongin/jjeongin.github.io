@@ -58,22 +58,35 @@ header {
 
 h1, h2, h3 {
     font-weight: normal;
+    color: #2B2B2B;
+}
+
+a {
+    color: #2B2B2B;
+}
+
+p {
+    color: #2B2B2B;
 }
 
 ::-moz-selection { /* Code for Firefox */
-    background: rgb(255, 255, 255);
-  }
+    /* background: rgb(255, 255, 255); */
+    background: #FFFFFC;
+}
   
 ::selection {
-    background: rgb(255, 255, 255);
+    /* background: rgb(255, 255, 255); */
+    background: #FFFFFC;
 }
 
 .ultra-conatiner {
     padding: 23px 15px;
 }
 
+/* LANDING */
 .landing {
-    height: calc(100vh - 190px);
+    /* height: calc(100vh - 190px); */
+    height: 73vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -99,6 +112,10 @@ h1, h2, h3 {
 
 .my-interest {
     font-size: 20px;
+    /* text-align: right; */
+}
+
+.my-cv {
     text-align: right;
 }
 
@@ -114,24 +131,72 @@ h1, h2, h3 {
 
 /* WORK */
 .work-history {
-
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .work-history-item {
-    width: 80vw;
-    border-radius: 6px;
-    border: 1px solid black;
+    /* width: 80vw; */
+    /* border-radius: 6px; */
+    border: 1px solid #2B2B2B;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 7px;
+    /* background-color: #F3F3F2; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 .work-organization {
     font-size: 20px;
     font-weight: 500;
+    margin: 0;
 }
 
 .work-role {
-    font-size: 14px;
+    font-size: 16px;
+    margin: 0;
 }
 
 .work-description {
-    font-size: 12px;
+    font-size: 14px;
+    margin: 0;
+}
+
+.work-period {
+    font-size: 14px;
+    margin: 0;
+    color: #2E2930;
+    /* color: #E5E4E6; */
+}
+
+.work-img {
+    width: 100%;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
 }
