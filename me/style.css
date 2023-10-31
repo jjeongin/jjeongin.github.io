@@ -66,6 +66,10 @@ a, p, li {
     color: #2B2B2B;
 }
 
+a {
+    text-decoration: none;
+}
+
 ul,
 ul li,
 ul ul li {
@@ -115,27 +119,23 @@ ul ul li {
     transform: rotate(225deg);
 }
 
-ul.nav-bar li {
+.nav-bar li {
     font-size: 24px; /* 32px for desktop */
 }
 
-ul.nav-bar li a {
-    text-decoration: none;
-}
-
-ul.nav-bar {
+.nav-bar {
     display: none; /* hide */
 }
 
-.nav-icon:hover + ul.nav-bar {
+.nav-icon:hover + .nav-bar {
     display: block; /* display */
 }
 
-.nav-container + ul.nav-bar {
+.nav-container + .nav-bar {
     display: block; /* keep displaying */
 }
 
-ul.nav-bar:hover {
+.nav-bar:hover {
     display: block; /* keep displaying */
 }
 
@@ -191,9 +191,13 @@ ul.nav-bar:hover {
     margin: 0;
 }
 
-.my-cv {
+.cv-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cv {
     font-size: 20px;
-    text-align: right;
 }
 
 .social-container {
@@ -221,10 +225,6 @@ ul.nav-bar:hover {
     gap: 7px;
 }
 
-.work-history-item a {
-    text-decoration: none;
-}
-
 .work-organization {
     font-size: 20px;
     font-weight: 500;
@@ -249,7 +249,6 @@ ul.nav-bar:hover {
     font-size: 16px;
     font-weight: 500;
     margin: 0;
-    /* text-decoration: underline; */
 }
 
 .work-period {
@@ -273,23 +272,15 @@ ul.nav-bar:hover {
     ul.nav-bar li { 
         font-size: 32px;
     }
-
     .my-profession {
         font-size: 20px;
     }
-
     .my-interest {
         font-size: 20px;
     }
-
-    .my-interest-container {
-        width: 70%;
-    }
-
     .my-cv {
         font-size: 24px;
     }
-
     .work-history {
         justify-content: center;
         align-items: center;
