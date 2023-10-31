@@ -66,6 +66,10 @@ a, p, li {
     color: #2B2B2B;
 }
 
+a {
+    text-decoration: none;
+}
+
 ul,
 ul li,
 ul ul li {
@@ -118,10 +122,10 @@ ul ul li {
 .nav-bar li {
     font-size: 24px; /* 32px for desktop */
 }
-
+/* 
 .nav-bar li a {
     text-decoration: none;
-}
+} */
 
 .nav-bar {
     display: none; /* hide */
@@ -191,9 +195,13 @@ ul ul li {
     margin: 0;
 }
 
-.my-cv {
+.cv-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cv {
     font-size: 20px;
-    text-align: right;
 }
 
 .social-container {
@@ -221,9 +229,9 @@ ul ul li {
     gap: 7px;
 }
 
-.work-history-item a {
+/* .work-history-item a {
     text-decoration: none;
-}
+} */
 
 .work-organization {
     font-size: 20px;
@@ -249,7 +257,6 @@ ul ul li {
     font-size: 16px;
     font-weight: 500;
     margin: 0;
-    /* text-decoration: underline; */
 }
 
 .work-period {
