@@ -122,10 +122,6 @@ ul ul li {
 .nav-bar li {
     font-size: 24px; /* 32px for desktop */
 }
-/* 
-.nav-bar li a {
-    text-decoration: none;
-} */
 
 .nav-bar {
     display: none; /* hide */
@@ -229,10 +225,6 @@ ul ul li {
     gap: 7px;
 }
 
-/* .work-history-item a {
-    text-decoration: none;
-} */
-
 .work-organization {
     font-size: 20px;
     font-weight: 500;
@@ -280,23 +272,15 @@ ul ul li {
     ul.nav-bar li { 
         font-size: 32px;
     }
-
     .my-profession {
         font-size: 20px;
     }
-
     .my-interest {
         font-size: 20px;
     }
-
-    .my-interest-container {
-        width: 70%;
-    }
-
     .my-cv {
         font-size: 24px;
     }
-
     .work-history {
         justify-content: center;
         align-items: center;
