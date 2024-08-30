@@ -98,7 +98,7 @@ ul ul li {
 
 /* LANDING */
 .landing {
-    height: 73vh;
+    min-height: 73vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -275,11 +275,6 @@ footer {
     padding-bottom: 5px;
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-    
-}
-
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .my-profession {
@@ -302,14 +297,4 @@ footer {
     .work-history-item {
         width: 50%;
     }
-}
-
-/* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-
-}
-
-/* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) { 
-
 }
