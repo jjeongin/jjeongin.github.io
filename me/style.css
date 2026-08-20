@@ -188,11 +188,35 @@ ul ul li {
     display: flex;
     flex-direction: column;
     gap: 7px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    overflow-x: auto;
 }
 
-.my-interest {
-    font-size: 16px;
-    margin: 0;
+.ascii-table {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    border-collapse: collapse;
+    border: 1px solid #2E2930;
+    table-layout: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.ascii-table td {
+    border: 1px solid #2E2930;
+    padding: 4px 10px;
+    color: #2E2930;
+    vertical-align: top;
+    word-break: break-word;
+}
+
+.ascii-table tr td:first-child {
+    width: 17ch;
+    white-space: nowrap;
 }
 
 .cv-container {
@@ -281,8 +305,9 @@ footer {
     .my-profession {
         font-size: 20px;
     }
-    .my-interest {
-        font-size: 18px;
+    .ascii-table {
+        font-size: 15px;
+        width: 75%;
     }
     .work-history {
         justify-content: center;
@@ -294,7 +319,10 @@ footer {
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
+    .ascii-table {
+        width: 50%;
+    }
     .work-history-item {
         width: 50%;
     }
