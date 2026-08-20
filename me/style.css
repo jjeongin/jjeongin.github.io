@@ -172,15 +172,16 @@ ul ul li {
     min-height: 195px;
 
     position: absolute;
+    left: 100%;
     overflow: hidden;
     white-space: nowrap;
-    will-change: transform;
+    will-change: left;
     animation: marquee 15s linear infinite;
 }
-  
+
 @keyframes marquee {
-    from { transform: translateX(50%); }
-    to { transform: translateX(-50%); }
+    from { left: 100%; }
+    to { left: -100%; }
 }
 
 .my-interest-container {
